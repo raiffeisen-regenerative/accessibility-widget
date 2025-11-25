@@ -1,30 +1,32 @@
 {
-  "name": "sienna-accessibility",
-  "version": "2.0.1",
-  "description": "Sienna: Accessibility Website Widget",
-  "main": "dist/sienna-accessibility.cjs.js",
-  "module": "dist/sienna-accessibility.esm.js",
-  "unpkg": "dist/sienna-accessibility.umd.js",
-  "scripts": {
-    "watch": "node esbuild.config.js --watch",
-    "build": "node esbuild.config.js --minify",
-    "lint": "eslint src --ext .ts,.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bennyluk/Sienna-Accessibility-Widget.git"
-  },
-  "author": "Benny Luk",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bennyluk/Sienna-Accessibility-Widget/issues"
-  },
-  "homepage": "https://accessibility-widget.pages.dev/",
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "esbuild": "0.25.1",
-    "eslint": "^9.39.1",
-    "html-minifier": "^4.0.0",
-    "typescript-eslint": "^8.48.0"
-  }
+    "name": "accessibility-widget",
+    "version": "1.0.0",
+    "description": "Accessibility Website Widget - Fork of Sienna Accessibility Widget by bennyluk",
+    "main": "dist/accessibility-widget.cjs.js",
+    "module": "dist/accessibility-widget.esm.js",
+    "unpkg": "dist/accessibility-widget.umd.js",
+    "scripts": {
+        "watch": "node esbuild.config.js --watch",
+        "build": "node esbuild.config.js --minify",
+        "lint": "eslint src --ext .ts,.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/raiffeisen-regenerative/accessibility-widget.git"
+    },
+    "modifiedByCompany": "Raiffeisen Regenerative GmbH",
+    "modifiedByAuthor": "Leopold Stenger",
+    "author": "Benny Luk",
+    "license": "MIT",
+    "originalRepository": {
+        "type": "git",
+        "url": "git+https://github.com/bennyluk/Sienna-Accessibility-Widget.git"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "esbuild": "0.25.1",
+        "eslint": "^9.39.1",
+        "html-minifier": "^4.0.0",
+        "typescript-eslint": "^8.48.0"
+    }
 }
