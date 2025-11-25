@@ -1,8 +1,9 @@
 # Ignore node_modules directory
 node_modules/
 
-# Ignore compiled output
+# Ignore compiled output, except UMD for CDN delivery
 dist/
+!dist/accessibility-widget.umd.js
 /.env
 .DS_Store
 
