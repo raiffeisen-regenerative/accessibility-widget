@@ -6,7 +6,7 @@
     top: 0px;
     box-shadow: 0px 0px 20px #00000080;
     opacity: 1;
-    transition: .3s;
+    transition: 0.3s;
     z-index: 500000;
     overflow: hidden;
     background: #eff1f5;
@@ -33,7 +33,7 @@
     padding: 10px 15px;
     height: 55px;
     font-weight: 700 !important;
-    background-color: #0848ca !important;
+    background-color: rgb(45, 47, 53) !important;
 }
 
 .asw-menu-title {
@@ -42,7 +42,7 @@
 }
 
 .asw-menu-header svg {
-    fill: #0848ca !important;
+    fill: rgb(45, 47, 53) !important;
     width: 24px !important;
     height: 24px !important;
     min-width: 24px !important;
@@ -62,7 +62,7 @@
     background: white !important;
     cursor: pointer !important;
     border-radius: 50% !important;
-    transition: opacity .3s ease !important;
+    transition: opacity 0.3s ease !important;
     border: 0 !important;
     box-shadow: none !important;
     outline: none !important;
@@ -74,7 +74,7 @@
     font-size: 15px !important;
     font-weight: 600 !important;
     padding: 15px !important;
-    background: #0848ca !important;
+    background: rgb(45, 47, 53) !important;
     color: #fff !important;
 }
 
@@ -84,7 +84,7 @@
 .asw-menu-close:focus,
 .asw-menu-reset-footer-btn:hover,
 .asw-menu-reset-footer-btn:focus {
-    outline: 3px solid hsla(0,0%,100%,.4) !important;
+    outline: 3px solid hsla(0, 0%, 100%, 0.4) !important;
 }
 
 .asw-card {
@@ -100,7 +100,7 @@
 
 .asw-menu .asw-select {
     width: 100% !important;
-    padding: 0px 15px!important;
+    padding: 0px 15px !important;
     font-size: 16px !important;
     font-family: inherit !important;
     font-weight: 600 !important;
@@ -151,13 +151,12 @@
 .asw-minus {
     background-color: #eff1f5 !important;
     border: 2px solid transparent;
-    transition: border .2s ease;
+    transition: border 0.2s ease;
 }
-
 
 .asw-plus:hover,
 .asw-minus:hover {
-    border-color: #0848ca !important;
+    border-color: rgb(45, 47, 53) !important;
 }
 
 .asw-amount {
@@ -165,7 +164,7 @@
     font-weight: 600 !important;
 }
 
-.asw-adjust-font svg{
+.asw-adjust-font svg {
     width: 24px !important;
     height: 24px !important;
     min-width: 24px !important;
@@ -185,25 +184,25 @@
 
 .asw-btn:hover,
 .asw-btn.asw-selected {
-    border-color: #0848ca !important;
+    border-color: rgb(45, 47, 53) !important;
 }
 
 .asw-btn.asw-selected svg,
 .asw-btn.asw-selected span {
-    fill: #0848ca !important;
-    color: #0848ca !important;
+    fill: rgb(45, 47, 53) !important;
+    color: rgb(45, 47, 53) !important;
 }
 
 .asw-btn.asw-selected:after {
-    content: '';
+    content: "";
     display: inline-block;
-    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M382-240%20154-468l57-57%20171%20171%20367-367%2057%2057-424%20424Z%22%2F%3E%3C%2Fsvg%3E');
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M382-240%20154-468l57-57%20171%20171%20367-367%2057%2057-424%20424Z%22%2F%3E%3C%2Fsvg%3E");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #0848ca!important;
+    background-color: rgb(45, 47, 53) !important;
     color: #fff;
     padding: 6px;
     font-size: 10px;
@@ -233,7 +232,7 @@
 
 .asw-footer a:hover,
 .asw-footer a:hover span {
-    color: #0848ca!important;
+    color: rgb(45, 47, 53) !important;
 }
 
 .asw-menu-content {
