@@ -21,10 +21,10 @@
   },
   "homepage": "https://accessibility-widget.pages.dev/",
   "devDependencies": {
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.1",
     "esbuild": "0.25.1",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.1",
     "html-minifier": "^4.0.0",
-    "typescript-eslint": "^8.46.1"
+    "typescript-eslint": "^8.48.0"
   }
 }
