@@ -57,6 +57,8 @@
 
 .asw-menu-reset,
 .asw-menu-close {
+    width: 36px !important;
+    height: 36px !important;
     padding: 5px !important;
     margin: 0 !important;
     background: white !important;
@@ -66,6 +68,9 @@
     border: 0 !important;
     box-shadow: none !important;
     outline: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .asw-menu-reset-footer-btn {
@@ -194,9 +199,9 @@
 }
 
 .asw-btn.asw-selected:after {
-    content: "";
+    content: '';
     display: inline-block;
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M382-240%20154-468l57-57%20171%20171%20367-367%2057%2057-424%20424Z%22%2F%3E%3C%2Fsvg%3E");
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2224px%22%20viewBox%3D%220%20-960%20960%20960%22%20width%3D%2224px%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M382-240%20154-468l57-57%20171%20171%20367-367%2057%2057-424%20424Z%22%2F%3E%3C%2Fsvg%3E');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -265,7 +270,7 @@
     font-size: 15px !important;
 }
 
-.asw-adjust-font div[role="button"] {
+.asw-adjust-font div[role='button'] {
     background: #eff1f5 !important;
     border-radius: 50%;
     width: 36px;
