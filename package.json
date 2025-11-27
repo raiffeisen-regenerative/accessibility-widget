@@ -1,6 +1,6 @@
 {
     "name": "accessibility-widget",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Accessibility Website Widget - Fork of Sienna Accessibility Widget by bennyluk",
     "main": "dist/accessibility-widget.cjs.js",
     "module": "dist/accessibility-widget.esm.js",
