@@ -1,9 +1,9 @@
 /*!
-* Accessibility Widget v1.0.3
+* Accessibility Widget v1.0.4
 * Based on "Sienna Accessibility Widget" by bennyluk (MIT License)
  * Modified by Raiffeisen Regenerative GmbH, 2025 (Leopold Stenger)
 * License: MIT
-* Repository: git+https://github.com/raiffeisen-regenerative/accessibility-widget.git
+* Repository: git+https://github.com/RaiffeisenRegenerative/accessibility-widget.git
 * 
 * Original: (c) 2025 Benny Luk
 * Original Repository: git+https://github.com/bennyluk/Sienna-Accessibility-Widget.git
